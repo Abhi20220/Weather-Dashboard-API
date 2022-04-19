@@ -1,7 +1,7 @@
 # Weather-Dashboard-API
 
 ## Website URL
-https://bootcampspot.com/coursework/122510/submit
+https://abhi20220.github.io/Weather-Dashboard-API/
 
 ## Goals
 I built this porject because the client wanted a website to check the weather
