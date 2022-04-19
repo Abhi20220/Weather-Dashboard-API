@@ -4,7 +4,7 @@
 https://abhi20220.github.io/Weather-Dashboard-API/
 
 ## Goals
-I built this porject because the client wanted a website to check the weather
+I built this project because the client wanted a website to check the weather
 
 ## Problems and solutions
 A Problem that I encountered was that even after completing the css and HTML some elements would not work unless the Javascript was completed; because of this I had to go through a lot of trial and error.
