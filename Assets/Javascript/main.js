@@ -21,8 +21,7 @@ $('.search').on("click", function (event) {
 	getWeatherToday();
 });
 
-
-//Will create buttons based on search history 
+//Creates buttons based on search history 
 var contHistEl = $('.cityHistory');
 function getHistory() {
 	contHistEl.empty();
@@ -49,3 +48,17 @@ function getHistory() {
 		getWeatherToday();
 	});
 };
+
+//The weather for sydney is loaded for the example
+function initLoad() {
+
+	var cityHistoryStore = JSON.parse(localStorage.getItem('city'));
+
+	if (cityHistoryStore !== null) {
+		cityHistory = cityHistoryStore
+	}
+	getHistory();
+	getWeatherToday();
+};
+
+initLoad();
